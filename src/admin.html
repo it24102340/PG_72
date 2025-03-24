@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - FitZone Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>Admin Panel</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#members">Manage Members</a></li>
+            <li><a href="#services">Manage Services</a></li>
+            <li><a href="#pricing">Manage Pricing</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="members" class="admin-section">
+    <h2>Manage Members</h2>
+    <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Member Name" required>
+        <input type="email" name="email" placeholder="Member Email" required>
+        <button type="submit" class="btn primary-btn">Add Member</button>
+    </form>
+</section>
+
+<section id="services" class="admin-section">
+    <h2>Manage Services</h2>
+    <form action="#" method="POST">
+        <input type="text" name="service" placeholder="Service Name" required>
+        <textarea name="description" placeholder="Service Description" required></textarea>
+        <button type="submit" class="btn primary-btn">Add Service</button>
+    </form>
+</section>
+
+<section id="pricing" class="admin-section">
+    <h2>Manage Pricing</h2>
+    <form action="#" method="POST">
+        <input type="text" name="plan" placeholder="Pricing Plan" required>
+        <input type="text" name="price" placeholder="Price" required>
+        <button type="submit" class="btn primary-btn">Add Plan</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 FitZone. All rights reserved.</p>
+</footer>
+</body>
+</html>
